@@ -6,20 +6,23 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
 const playfair = Playfair_Display({ variable: '--font-playfair', subsets: ['latin'] })
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajgupta.dev'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rajg.tech'
 
 export const metadata: Metadata = {
   title: 'Raj — Software Engineer',
   description: 'Software engineer focused on data systems and web products.',
+  keywords: ['Raj Gupta', 'software engineer', 'data engineer', 'web developer', 'portfolio'],
   metadataBase: new URL(siteUrl),
+  alternates: { canonical: siteUrl },
   openGraph: {
     title: 'Raj — Software Engineer',
     description: 'Software engineer focused on data systems and web products.',
     type: 'website',
     url: siteUrl,
+    siteName: 'Raj Gupta',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Raj — Software Engineer',
     description: 'Software engineer focused on data systems and web products.',
   },

@@ -42,7 +42,7 @@ export function Work() {
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-zinc-600 hover:text-accent transition-colors mt-1 shrink-0"
+                  className="text-zinc-600 group-hover:text-accent group-hover:scale-110 transition-all duration-200 mt-1 shrink-0"
                   aria-label={`View ${project.name}`}
                 >
                   <ExternalLink size={16} />

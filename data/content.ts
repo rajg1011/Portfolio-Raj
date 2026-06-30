@@ -1,66 +1,85 @@
-export const roleStrings = [
-  'Software Engineer',
-  'Problem Solver',
-  'Data Engineer',
-  'Full Stack Developer',
-]
-
 export const projects = [
   {
     id: 1,
-    name: 'DataPulse',
-    description: 'Real-time analytics dashboard for streaming event data with sub-second latency.',
-    tags: ['Python', 'Kafka', 'PostgreSQL', 'React'],
-    url: 'https://github.com/rajg1011/datapulse',
+    name: 'NutriCal',
+    description: 'AI-powered nutrition tracking. A background agent monitors your intake, generates personalised insights, and sends LLM crafted nudges, so the app works for you, even when you\'re not in it.',
+    tags: ['React', 'Node.js', 'Supabase', 'GenAI', 'Agentic AI', 'AWS Lambda', 'Serverless'],
+    url: 'https://nutri-cal.pages.dev',
   },
   {
     id: 2,
-    name: 'PipelineForge',
-    description: 'Declarative ETL pipeline builder that compiles YAML definitions into Airflow DAGs.',
-    tags: ['Python', 'Apache Airflow', 'dbt', 'Docker'],
-    url: 'https://github.com/rajg1011/pipelineforge',
+    name: 'Face Attendance',
+    description: 'Face recognition attendance system powered by the buffalo_sc model. Detects, identifies, and logs presence in real time. No badges, no manual entry.',
+    tags: ['Python', 'InsightFace', 'OpenCV', 'NumPy', 'Streamlit'],
+    url: 'https://github.com/rajg1011/Face-Attendance-System',
   },
   {
     id: 3,
-    name: 'QueryKit',
-    description: 'Lightweight SQL query builder for TypeScript with type-safe result inference.',
-    tags: ['TypeScript', 'PostgreSQL', 'Node.js'],
-    url: 'https://github.com/rajg1011/querykit',
+    name: 'We Care',
+    description: 'Web platform showcasing 20+ physiotherapy techniques with dynamic content and smooth sliders.',
+    tags: ['Node.js', 'MongoDB', 'EJS', 'JavaScript', 'Swiper.js'],
+    url: 'https://github.com/rajg1011/We-Care-Web-Project',
+  },
+  {
+    id: 4,
+    name: 'Dental Clinic',
+    description: 'Client website for a dental clinic. Built with Next.js for SEO, email-based appointment booking, and deployed on Cloudflare Workers.',
+    tags: ['Next.js', 'Cloudflare Workers', 'Email', 'SEO'],
+    url: 'https://www.completedentalcareclinic.com',
   },
 ]
 
 export const skills = [
-  { name: 'Python', category: 'Language' as const },
+  { name: 'LLM Integration', category: 'AI' as const },
+  { name: 'Agentic AI', category: 'AI' as const },
+  { name: 'JavaScript', category: 'Language' as const },
   { name: 'TypeScript', category: 'Language' as const },
+   { name: 'Java', category: 'Language' as const },
   { name: 'SQL', category: 'Language' as const },
-  { name: 'Next.js', category: 'Framework' as const },
   { name: 'React', category: 'Framework' as const },
-  { name: 'FastAPI', category: 'Framework' as const },
+  { name: 'Next.js', category: 'Framework' as const },
+  { name: 'Node.js', category: 'Framework' as const },
+  { name: 'Express', category: 'Framework' as const },
   { name: 'PostgreSQL', category: 'Database' as const },
-  { name: 'Supabase', category: 'Database' as const },
-  { name: 'Apache Kafka', category: 'Tool' as const },
+  { name: 'MongoDB', category: 'Database' as const },
   { name: 'Docker', category: 'Tool' as const },
-  { name: 'Apache Airflow', category: 'Tool' as const },
-  { name: 'dbt', category: 'Tool' as const },
-  { name: 'Tailwind CSS', category: 'UI' as const },
-  { name: 'Data Modeling', category: 'Concept' as const },
-  { name: 'Stream Processing', category: 'Concept' as const },
+  { name: 'AWS (EC2, S3, Lambda)', category: 'Tool' as const },
+  { name: 'Cloudflare Workers', category: 'Tool' as const }
 ]
 
 export const bio = {
-  paragraph:
-    'Software engineer focused on data systems and web products. I build tools that turn raw data into decisions and interfaces that make those decisions accessible.',
+  paragraph: [
+    'I build products where data, backend, and AI meet.',
+    'Scalable systems, LLM-powered features, interfaces that feel easy and minimal.',
+    'I care about all of it.',
+  ],
+  experience: [
+    {
+      role: 'Full-Stack Developer',
+      company: 'Supplymint',
+      period: '2025 — Present',
+      detail: 'Building supply chain systems: Kafka pipelines, print workflows, and auth integrations that actually ship.',
+    },
+    {
+      role: 'IT Intern',
+      company: 'Kochar Infotech',
+      period: '2024 — 2025',
+      detail: 'Shipped content pipelines, email automation, and UI flows across ReactJS, NestJS, and Angular.',
+    },
+  ],
+  education: 'B.Tech in CS — Chitkara University, 2025',
+  offscreen: 'Books, chai, and long conversations.',
   currently: {
     status: 'Open to opportunities',
     location: 'India',
-    experience: '3+ years',
+    experience: '1+ year',
   },
 }
 
 export const contact = {
-  email: 'raj@example.com',
+  email: 'rajg1110.dev@gmail.com',
   github: 'https://github.com/rajg1011',
-  linkedin: 'https://linkedin.com/in/rajg1011',
+  linkedin: 'https://www.linkedin.com/in/rajg1110',
 }
 
-export const siteTagline = 'Building with intent.'
+export const siteTagline = 'Think deeply. Build simply.'

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!process.env.NEXT_PUBLIC_SUPABASE_URL) return {}
   const post = await getPostBySlug(slug)
   if (!post) return {}
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajgupta.dev'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rajg.tech'
   return {
     title: `${post.title} | Raj`,
     description: post.excerpt,
@@ -36,7 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: post.published_at,
       url: `${siteUrl}/blog/${post.slug}`,
-      ...(post.cover_image_url ? { images: [post.cover_image_url] } : {}),
+      images: post.cover_image_url
+        ? [post.cover_image_url]
+        : [{ url: `${siteUrl}/blog/${post.slug}/opengraph-image`, width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -52,7 +54,7 @@ export default async function BlogPostPage({ params }: Props) {
   const post = await getPostBySlug(slug)
   if (!post) notFound()
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajgupta.dev'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rajg.tech'
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -60,7 +62,7 @@ export default async function BlogPostPage({ params }: Props) {
     description: post.excerpt,
     datePublished: post.published_at,
     url: `${siteUrl}/blog/${post.slug}`,
-    author: { '@type': 'Person', name: 'Raj' },
+    author: { '@type': 'Person', name: 'Raj Gupta' },
     ...(post.cover_image_url ? { image: post.cover_image_url } : {}),
   }
 

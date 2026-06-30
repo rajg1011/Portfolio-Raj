@@ -6,10 +6,10 @@ import { ArrowDown } from 'lucide-react'
 import { TypewriterText } from '@/components/ui/TypewriterText'
 
 const heroStrings = [
-  'Continuous Learner',
-  'Problem Solver',
-  'Builder',
-  'Data Engineer',
+  'Building AI Products',
+  'Scaling Systems',
+  'Automating Workflows',
+  'Shipping Products',
 ]
 
 export function Hero() {
@@ -33,7 +33,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
         <p className="text-[11px] tracking-[0.45em] uppercase text-zinc-400 mb-6">
-          Hey, I&apos;m Raj
+          Raj Gupta - Software Engineer
         </p>
 
         <h1 className="font-[family-name:var(--font-playfair)] font-bold leading-[1.05] mb-8">
@@ -50,8 +50,7 @@ export function Hero() {
         </p>
 
         <p className="text-sm md:text-[15px] text-zinc-400 mb-10 max-w-md mx-auto leading-relaxed">
-          One year in. Still learning every day. Enjoying the process
-          more than I expected.
+          Engineering AI products that connect robust backend systems, intelligent models, and seamless user experiences into one cohesive solution.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -61,12 +60,14 @@ export function Hero() {
           >
             Get In Touch
           </Link>
-          <Link
-            href="#work"
+          <a
+            href="https://drive.google.com/file/d/1vjIiiglbDWbarYQjVU-vFhPqKo9L8oqo/view"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3 border border-white/30 text-white text-[11px] tracking-[0.22em] uppercase font-semibold hover:border-white hover:bg-white/5 transition-colors"
           >
-            View Work
-          </Link>
+            Resume
+          </a>
         </div>
       </div>
 
