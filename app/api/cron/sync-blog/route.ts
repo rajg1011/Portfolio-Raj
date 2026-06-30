@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
     return Response.json({ error: error.message }, { status: 500 })
   }
 
-  revalidateTag('blog-posts')
+  revalidateTag('blog-posts', 'max')
 
   return Response.json({ synced: data?.length ?? 0 })
 }
