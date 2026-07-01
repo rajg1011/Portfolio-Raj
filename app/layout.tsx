@@ -34,7 +34,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#111113] text-white">{children}</body>
+      <body
+        className="min-h-full flex flex-col bg-[#111113] text-white"
+        suppressHydrationWarning
+      >
+        {children}
+      </body>
     </html>
   )
 }

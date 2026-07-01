@@ -16,7 +16,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-28 pb-20"
     >
       {/* Background image */}
       <Image
@@ -72,7 +72,7 @@ export function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 flex flex-col items-center gap-2 text-zinc-500">
+      <div className="absolute bottom-8 hidden [@media(pointer:fine)]:flex flex-col items-center gap-2 text-zinc-500">
         <span className="text-[10px] tracking-[0.35em] uppercase">Scroll</span>
         <ArrowDown size={14} className="animate-bounce" />
       </div>

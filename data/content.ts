@@ -57,17 +57,17 @@ export const bio = {
     {
       role: 'Full-Stack Developer',
       company: 'Supplymint',
-      period: '2025 — Present',
+      period: '2025 - Present',
       detail: 'Building supply chain systems: Kafka pipelines, print workflows, and auth integrations that actually ship.',
     },
     {
       role: 'IT Intern',
       company: 'Kochar Infotech',
-      period: '2024 — 2025',
+      period: '2024 - 2025',
       detail: 'Shipped content pipelines, email automation, and UI flows across ReactJS, NestJS, and Angular.',
     },
   ],
-  education: 'B.Tech in CS — Chitkara University, 2025',
+  education: 'B.Tech in CS - Chitkara University, 2025',
   offscreen: 'Books, chai, and long conversations.',
   currently: {
     status: 'Open to opportunities',
