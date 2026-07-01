@@ -54,7 +54,7 @@ export default function OGImage() {
             textTransform: 'uppercase',
           }}
         >
-          rajg.tech
+          rajg.dev
         </div>
       </div>
     ),

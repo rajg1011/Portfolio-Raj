@@ -77,7 +77,7 @@ export const bio = {
 }
 
 export const contact = {
-  email: 'rajg1110.dev@gmail.com',
+  email: 'raj@rajg.dev',
   github: 'https://github.com/rajg1011',
   linkedin: 'https://www.linkedin.com/in/rajg1110',
 }

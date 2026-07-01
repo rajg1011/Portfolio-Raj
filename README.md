@@ -2,7 +2,7 @@
 
 Personal portfolio site built with Next.js 16, React 19, and Tailwind CSS v4. Deployed on Vercel.
 
-Live at [rajg.tech](https://www.rajg.tech)
+Live at [rajg.dev](https://rajg.dev)
 
 ## Stack
 

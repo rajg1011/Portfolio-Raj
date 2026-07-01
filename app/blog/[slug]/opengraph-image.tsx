@@ -67,7 +67,7 @@ export default async function OGImage({ params }: Props) {
             textTransform: 'uppercase',
           }}
         >
-          Raj Gupta · rajg.tech/blog
+          Raj Gupta · rajg.dev/blog
         </div>
       </div>
     ),

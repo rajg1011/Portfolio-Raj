@@ -6,7 +6,7 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
 const playfair = Playfair_Display({ variable: '--font-playfair', subsets: ['latin'] })
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rajg.tech'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajg.dev'
 
 export const metadata: Metadata = {
   title: 'Raj — Software Engineer',

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!process.env.NEXT_PUBLIC_SUPABASE_URL) return {}
   const post = await getPostBySlug(slug)
   if (!post) return {}
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rajg.tech'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajg.dev'
   return {
     title: `${post.title} | Raj`,
     description: post.excerpt,
@@ -54,7 +54,7 @@ export default async function BlogPostPage({ params }: Props) {
   const post = await getPostBySlug(slug)
   if (!post) notFound()
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rajg.tech'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajg.dev'
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
