@@ -61,7 +61,7 @@ export function Hero() {
             Get In Touch
           </Link>
           <a
-            href="https://drive.google.com/file/d/1vjIiiglbDWbarYQjVU-vFhPqKo9L8oqo/view"
+            href="https://drive.google.com/file/d/1cWK6fH3-xsSd2kba99a27ex9y7idT75p/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 border border-white/30 text-white text-[11px] tracking-[0.22em] uppercase font-semibold hover:border-white hover:bg-white/5 transition-colors"
