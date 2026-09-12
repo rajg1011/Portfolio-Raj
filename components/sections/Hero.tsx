@@ -33,7 +33,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
         <p className="text-[11px] tracking-[0.45em] uppercase text-zinc-400 mb-6">
-          Raj Gupta - Software Engineer
+          Raj Gupta - Full-Stack & AI Engineer
         </p>
 
         <h1 className="font-[family-name:var(--font-playfair)] font-bold leading-[1.05] mb-8">

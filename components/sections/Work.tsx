@@ -7,7 +7,7 @@ export function Work() {
     <section id="work" className="py-24 bg-[#141416]">
       <div className="mx-auto max-w-5xl px-6">
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-accent text-xs tracking-widest uppercase font-mono">/ Selected Work</span>
+          <h2 className="text-accent text-xs tracking-widest uppercase font-mono">/ Selected Work</h2>
           <div className="flex-1 h-px bg-white/10" />
         </div>
         <div className="flex flex-col gap-4">

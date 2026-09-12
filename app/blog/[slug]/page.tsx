@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {}
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajg.dev'
   return {
-    title: `${post.title} | Raj`,
+    title: post.title,
     description: post.excerpt,
     alternates: { canonical: post.source_url },
     openGraph: {

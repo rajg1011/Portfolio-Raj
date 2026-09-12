@@ -4,9 +4,24 @@ import { Nav } from '@/components/ui/Nav'
 import { Footer } from '@/components/ui/Footer'
 import { getPosts, type PostSummary } from '@/lib/supabase'
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajg.dev'
+const description = 'Articles on data engineering, software development, and building for the web.'
+
 export const metadata: Metadata = {
-  title: 'Blog | Raj',
-  description: 'Articles on data engineering, software development, and building for the web.',
+  title: 'Blog',
+  description,
+  alternates: { canonical: `${siteUrl}/blog` },
+  openGraph: {
+    title: 'Blog | Raj Gupta',
+    description,
+    type: 'website',
+    url: `${siteUrl}/blog`,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog | Raj Gupta',
+    description,
+  },
 }
 
 export default async function BlogPage() {

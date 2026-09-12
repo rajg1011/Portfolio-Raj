@@ -5,7 +5,7 @@ export function About() {
     <section id="about" className="py-24 bg-[#111113]">
       <div className="mx-auto max-w-5xl px-6">
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-accent text-xs tracking-widest uppercase font-mono">/ About</span>
+          <h2 className="text-accent text-xs tracking-widest uppercase font-mono">/ About</h2>
           <div className="flex-1 h-px bg-white/10" />
         </div>
 

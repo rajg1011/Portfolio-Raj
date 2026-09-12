@@ -34,14 +34,14 @@ export function Contact() {
     <section id="contact" className="py-24 bg-[#141416]">
       <div className="mx-auto max-w-5xl px-6">
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-accent text-xs tracking-widest uppercase font-mono">/ Contact</span>
+          <h2 className="text-accent text-xs tracking-widest uppercase font-mono">/ Contact</h2>
           <div className="flex-1 h-px bg-white/10" />
         </div>
         <div className="text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+        <h3 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
           Have something in mind?{' '}
           <span className="text-white/30">Let&apos;s talk.</span>
-        </h2>
+        </h3>
         <p className="text-zinc-500 mb-10 text-sm">
           Open to full-time roles, freelance projects, and interesting collaborations.
         </p>
