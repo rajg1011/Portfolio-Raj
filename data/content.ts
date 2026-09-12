@@ -31,10 +31,10 @@ export const projects = [
 
 export const skills = [
   { name: 'LLM Integration', category: 'AI' as const },
-  { name: 'Agentic AI', category: 'AI' as const },
+  { name: 'MCP Server', category: 'AI' as const },
+  { name: 'RAG pipelines', category: 'AI' as const },
   { name: 'JavaScript', category: 'Language' as const },
   { name: 'TypeScript', category: 'Language' as const },
-   { name: 'Java', category: 'Language' as const },
   { name: 'SQL', category: 'Language' as const },
   { name: 'React', category: 'Framework' as const },
   { name: 'Next.js', category: 'Framework' as const },
@@ -43,22 +43,22 @@ export const skills = [
   { name: 'PostgreSQL', category: 'Database' as const },
   { name: 'MongoDB', category: 'Database' as const },
   { name: 'Docker', category: 'Tool' as const },
-  { name: 'AWS (EC2, S3, Lambda)', category: 'Tool' as const },
+  { name: 'AWS (EC2, S3, Lambda, Aplify, ECS, ECR)', category: 'Tool' as const },
   { name: 'Cloudflare Workers', category: 'Tool' as const }
 ]
 
 export const bio = {
   paragraph: [
-    'I build products where data, backend, and AI meet.',
-    'Scalable systems, LLM-powered features, interfaces that feel easy and minimal.',
-    'I care about all of it.',
+    'I work at the seams - where services meet a broker, where a model meets a real backend.',
+    'Node, Kafka, Postgres, AWS, and the LLM tooling layer.',
+    'I like making things work.',
   ],
   experience: [
     {
-      role: 'Full-Stack Developer',
+      role: 'Software Developer',
       company: 'Supplymint',
       period: '2025 - Present',
-      detail: 'Building supply chain systems: Kafka pipelines, print workflows, and auth integrations that actually ship.',
+      detail: 'Building supply chain systems: MCP server, RAG pipelines, print workflows, and auth integrations that actually ship.',
     },
     {
       role: 'IT Intern',
@@ -67,7 +67,7 @@ export const bio = {
       detail: 'Shipped content pipelines, email automation, and UI flows across ReactJS, NestJS, and Angular.',
     },
   ],
-  education: 'B.Tech in CS - Chitkara University, 2025',
+  education: 'B.E in CS - Chitkara University, 2025',
   offscreen: 'Books, chai, and long conversations.',
   currently: {
     status: 'Open to opportunities',

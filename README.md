@@ -1,4 +1,4 @@
-# Raj Gupta — Portfolio
+# Raj Gupta - Portfolio
 
 Personal portfolio site built with Next.js 16, React 19, and Tailwind CSS v4. Deployed on Vercel.
 

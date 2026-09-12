@@ -9,7 +9,7 @@ const playfair = Playfair_Display({ variable: '--font-playfair', subsets: ['lati
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajg.dev'
 
 export const metadata: Metadata = {
-  title: 'Raj — Software Engineer',
+  title: 'Raj - Software Engineer',
   description: 'Software engineer focused on data systems and web products.',
   keywords: ['Raj Gupta', 'software engineer', 'data engineer', 'web developer', 'portfolio'],
   metadataBase: new URL(siteUrl),
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Raj — Software Engineer',
+    title: 'Raj - Software Engineer',
     description: 'Software engineer focused on data systems and web products.',
   },
 }

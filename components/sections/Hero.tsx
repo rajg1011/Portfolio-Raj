@@ -6,10 +6,10 @@ import { ArrowDown } from 'lucide-react'
 import { TypewriterText } from '@/components/ui/TypewriterText'
 
 const heroStrings = [
-  'Building AI Products',
-  'Scaling Systems',
-  'Automating Workflows',
-  'Shipping Products',
+  'Backend Engineering',
+  'AI Product Engineering',
+  'Event-Driven Systems',
+  'API & Integration Work',
 ]
 
 export function Hero() {
@@ -21,7 +21,7 @@ export function Hero() {
       {/* Background image */}
       <Image
         src="/ghibli-hero-section.png"
-        alt="Raj — Ghibli style"
+        alt="Raj Gupta"
         fill
         priority
         style={{ objectFit: 'contain', objectPosition: 'center center', filter: 'saturate(0.5) brightness(0.75)' }}
@@ -50,7 +50,7 @@ export function Hero() {
         </p>
 
         <p className="text-sm md:text-[15px] text-zinc-400 mb-10 max-w-md mx-auto leading-relaxed">
-          Engineering AI products that connect robust backend systems, intelligent models, and seamless user experiences into one cohesive solution.
+           Software engineer working on backend systems and the LLM tooling on top of them.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
